@@ -8,21 +8,7 @@ public class Main { //the Main class
 		Window.msg("Welcome to guess who!\nIn this game, a random set of characters will be selected as the answer and you will have to guess it!\nYou will get 3 attempts on finding out the answers characteristics, once that is up you must guess!\nNow goodluck!");
 		chooser();
 		Windoww();
-		finalGuess();
-	}
 	
-	
-	//instance variables
-	public static int turns = 3; 
-	public static String blank = ""; 
-	public static String C1 = "OP"; 
-	public static String C2 = "OC"; 
-	public static String C3 = "oE"; 
-	public static String C4 = "od"; 
-	public static String C5 = "PE"; 
-	public static String C6 = "cE"; 
-	public static String C7 = "pL"; 
-	public static String C8 = "cd"; 
 	public static String C9 = "pp"; 
 	public static String C10 = "lol"; 
 	static int Chosen = 0; 
@@ -52,17 +38,7 @@ public class Main { //the Main class
 			"Is there a D?",
 			"Is there an L?",
 			"Does it have 2 Capitals?",
-			"Are they all Lowercase?",
-			"Is there only one Capital?",
-			"Is there 3 letters?",
-			"Exit"
-	};
-	//A list of all the selections a user can make once out of guesses
-	static String[] Select = {
-		Chart[0][0],
-		Chart[0][1],
-		Chart[0][2],
-		Chart[0][3],
+			
 		Chart[0][4],
 		Chart[1][0],
 		Chart[1][1],
